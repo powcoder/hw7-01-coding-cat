@@ -1,0 +1,15 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+* Maxim MCP795		SPI Serial Real-Time Clock
+
+Required properties:
+- compatible: Should contain "maxim,mcp795".
+- reg: SPI address for chip
+
+Example:
+	mcp795: rtc@0 {
+		compatible = "maxim,mcp795";
+		reg = <0>;
+	};

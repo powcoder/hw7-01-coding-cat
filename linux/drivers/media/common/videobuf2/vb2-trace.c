@@ -1,0 +1,14 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+// SPDX-License-Identifier: GPL-2.0
+#include <media/videobuf2-core.h>
+
+#define CREATE_TRACE_POINTS
+#include <trace/events/vb2.h>
+
+EXPORT_TRACEPOINT_SYMBOL_GPL(vb2_buf_done);
+EXPORT_TRACEPOINT_SYMBOL_GPL(vb2_buf_queue);
+EXPORT_TRACEPOINT_SYMBOL_GPL(vb2_dqbuf);
+EXPORT_TRACEPOINT_SYMBOL_GPL(vb2_qbuf);

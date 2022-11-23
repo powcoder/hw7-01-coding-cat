@@ -1,0 +1,18 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+Analog Devices SSM2305 Speaker Amplifier
+========================================
+
+Required properties:
+  - compatible : "adi,ssm2305"
+  - shutdown-gpios : The gpio connected to the shutdown pin.
+                     The gpio signal is ACTIVE_LOW.
+
+Example:
+
+ssm2305: analog-amplifier {
+	compatible = "adi,ssm2305";
+	shutdown-gpios = <&gpio3 20 GPIO_ACTIVE_LOW>;
+};

@@ -1,0 +1,15 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+
+For generic kernel features that need architecture support, the
+arch-support.txt file in each feature directory shows the arch
+support matrix, for all upstream Linux architectures.
+
+The meaning of entries in the tables is:
+
+    | ok |  # feature supported by the architecture
+    |TODO|  # feature not yet supported by the architecture
+    | .. |  # feature cannot be supported by the hardware
+

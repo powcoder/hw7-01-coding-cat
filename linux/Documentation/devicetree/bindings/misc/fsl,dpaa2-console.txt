@@ -1,0 +1,15 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+DPAA2 console support
+
+Required properties:
+
+    - compatible
+        Value type: <string>
+        Definition: Must be "fsl,dpaa2-console".
+    - reg
+        Value type: <prop-encoded-array>
+        Definition: A standard property.  Specifies the region where the MCFBA
+                    (MC firmware base address) register can be found.

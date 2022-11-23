@@ -1,0 +1,18 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+/* SPDX-License-Identifier: GPL-2.0 */
+#ifndef _LIBLOCKDEP_DEBUG_LOCKS_H_
+#define _LIBLOCKDEP_DEBUG_LOCKS_H_
+
+#include <stddef.h>
+#include <linux/compiler.h>
+#include <asm/bug.h>
+
+#define DEBUG_LOCKS_WARN_ON(x) WARN_ON(x)
+
+extern bool debug_locks;
+extern bool debug_locks_silent;
+
+#endif

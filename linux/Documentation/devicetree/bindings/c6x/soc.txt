@@ -1,0 +1,32 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+C6X System-on-Chip
+------------------
+
+Required properties:
+
+- compatible: "simple-bus"
+- #address-cells: must be 1
+- #size-cells: must be 1
+- ranges
+
+Optional properties:
+
+- model: specific SoC model
+
+- nodes for IP blocks within SoC
+
+
+Example:
+
+	soc {
+		compatible = "simple-bus";
+		model = "tms320c6455";
+		#address-cells = <1>;
+		#size-cells = <1>;
+		ranges;
+
+		...
+	};

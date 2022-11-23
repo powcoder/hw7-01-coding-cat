@@ -1,0 +1,16 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+* Freescale MMA8450 3-Axis Accelerometer
+
+Required properties:
+- compatible : "fsl,mma8450".
+- reg: the I2C address of MMA8450
+
+Example:
+
+accelerometer: mma8450@1c {
+	compatible = "fsl,mma8450";
+	reg = <0x1c>;
+};

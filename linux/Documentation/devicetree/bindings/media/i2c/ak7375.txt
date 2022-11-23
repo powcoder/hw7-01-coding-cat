@@ -1,0 +1,12 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+Asahi Kasei Microdevices AK7375 voice coil lens driver
+
+AK7375 is a camera voice coil lens.
+
+Mandatory properties:
+
+- compatible: "asahi-kasei,ak7375"
+- reg: I2C slave address

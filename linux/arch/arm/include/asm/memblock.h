@@ -1,0 +1,14 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+/* SPDX-License-Identifier: GPL-2.0 */
+#ifndef _ASM_ARM_MEMBLOCK_H
+#define _ASM_ARM_MEMBLOCK_H
+
+struct machine_desc;
+
+void arm_memblock_init(const struct machine_desc *);
+phys_addr_t arm_memblock_steal(phys_addr_t size, phys_addr_t align);
+
+#endif

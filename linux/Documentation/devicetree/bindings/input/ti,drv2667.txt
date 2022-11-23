@@ -1,0 +1,21 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+* Texas Instruments - drv2667 Haptics driver
+
+Required properties:
+	- compatible - "ti,drv2667" - DRV2667
+	- reg -  I2C slave address
+	- vbat-supply - Required supply regulator
+
+Example:
+
+haptics: haptics@59 {
+	compatible = "ti,drv2667";
+	reg = <0x59>;
+	vbat-supply = <&vbat>;
+};
+
+For more product information please see the link below:
+http://www.ti.com/product/drv2667

@@ -1,0 +1,20 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+/* SPDX-License-Identifier: GPL-2.0 */
+#ifndef __USBAUDIO_DEBUG_H
+#define __USBAUDIO_DEBUG_H
+
+/*
+ * h/w constraints
+ */
+
+#ifdef HW_CONST_DEBUG
+#define hwc_debug(fmt, args...) printk(KERN_DEBUG fmt, ##args)
+#else
+#define hwc_debug(fmt, args...) do { } while(0)
+#endif
+
+#endif /* __USBAUDIO_DEBUG_H */
+

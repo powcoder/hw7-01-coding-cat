@@ -1,0 +1,18 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+MT6797 with MT6351 CODEC
+
+Required properties:
+- compatible: "mediatek,mt6797-mt6351-sound"
+- mediatek,platform: the phandle of MT6797 ASoC platform
+- mediatek,audio-codec: the phandles of MT6351 codec
+
+Example:
+
+	sound {
+		compatible = "mediatek,mt6797-mt6351-sound";
+		mediatek,audio-codec = <&mt6351_snd>;
+		mediatek,platform = <&afe>;
+	};

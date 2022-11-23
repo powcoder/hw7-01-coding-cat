@@ -1,0 +1,21 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Greybus manifest parsing
+ *
+ * Copyright 2014 Google Inc.
+ * Copyright 2014 Linaro Ltd.
+ */
+
+#ifndef __MANIFEST_H
+#define __MANIFEST_H
+
+#include <linux/types.h>
+
+struct gb_interface;
+bool gb_manifest_parse(struct gb_interface *intf, void *data, size_t size);
+
+#endif /* __MANIFEST_H */

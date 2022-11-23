@@ -1,0 +1,21 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+* HDC100x temperature + humidity sensors
+
+Required properties:
+  - compatible: Should contain one of the following:
+	ti,hdc1000
+	ti,hdc1008
+	ti,hdc1010
+	ti,hdc1050
+	ti,hdc1080
+  - reg: i2c address of the sensor
+
+Example:
+
+hdc100x@40 {
+	compatible = "ti,hdc1000";
+	reg = <0x40>;
+};

@@ -1,0 +1,17 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+// SPDX-License-Identifier: GPL-2.0
+int cache_control(unsigned int command)
+{
+	volatile unsigned int *p = (volatile unsigned int *) 0x80000000;
+	int i;
+
+	for (i = 0; i < (32 * 1024); i += 32) {
+		(void)*p;
+		p += (32 / sizeof(int));
+	}
+
+	return 0;
+}

@@ -1,0 +1,20 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+WM8770 audio CODEC
+
+This device supports SPI.
+
+Required properties:
+
+  - compatible : "wlf,wm8770"
+
+  - reg : the chip select number.
+
+Example:
+
+wm8770: codec@1 {
+	compatible = "wlf,wm8770";
+	reg = <1>;
+};

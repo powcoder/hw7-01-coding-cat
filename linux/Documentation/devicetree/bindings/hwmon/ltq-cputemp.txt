@@ -1,0 +1,14 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+Lantiq cpu temperatur sensor
+
+Requires node properties:
+- compatible value :
+	"lantiq,cputemp"
+
+Example:
+	cputemp@0 {
+		compatible = "lantiq,cputemp";
+	};

@@ -1,0 +1,13 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+/* SPDX-License-Identifier: GPL-2.0 */
+#ifndef __ASM_SH_CPU_SH2A_RTC_H
+#define __ASM_SH_CPU_SH2A_RTC_H
+
+#define rtc_reg_size		sizeof(u16)
+#define RTC_BIT_INVERTED	0
+#define RTC_DEF_CAPABILITIES	RTC_CAP_4_DIGIT_YEAR
+
+#endif /* __ASM_SH_CPU_SH2A_RTC_H */

@@ -1,0 +1,13 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+#ifndef __LINUX_ARCFB_H__
+#define __LINUX_ARCFB_H__
+
+#define FBIO_WAITEVENT		_IO('F', 0x88)
+#define FBIO_GETCONTROL2	_IOR('F', 0x89, size_t)
+
+#endif
+

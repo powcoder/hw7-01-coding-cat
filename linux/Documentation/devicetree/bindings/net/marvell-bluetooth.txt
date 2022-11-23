@@ -1,0 +1,29 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+Marvell Bluetooth Chips
+-----------------------
+
+This documents the binding structure and common properties for serial
+attached Marvell Bluetooth devices. The following chips are included in
+this binding:
+
+* Marvell 88W8897 Bluetooth devices
+
+Required properties:
+ - compatible: should be:
+    "mrvl,88w8897"
+
+Optional properties:
+None so far
+
+Example:
+
+&serial0 {
+	compatible = "ns16550a";
+	...
+	bluetooth {
+		compatible = "mrvl,88w8897";
+	};
+};

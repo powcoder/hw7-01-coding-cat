@@ -1,0 +1,11 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+EZchip NPS Network Processor Platforms Device Tree Bindings
+---------------------------------------------------------------------------
+
+Appliance main board with NPS400 ASIC.
+
+Required root node properties:
+    - compatible = "ezchip,arc-nps";

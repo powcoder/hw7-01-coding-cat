@@ -1,0 +1,15 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+*Device-Tree bindings for ST SW reset functionality
+
+Required properties:
+- compatible: should be "stih407-restart".
+- st,syscfg: should be a phandle of the syscfg node.
+
+Example node:
+	restart {
+		compatible = "st,stih407-restart";
+		st,syscfg = <&syscfg_sbc_reg>;
+	};

@@ -1,0 +1,17 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+* MEMSIC MMC35240 magnetometer sensor
+
+Required properties:
+
+  - compatible : should be "memsic,mmc35240"
+  - reg : the I2C address of the magnetometer
+
+Example:
+
+mmc35240@30 {
+        compatible = "memsic,mmc35240";
+        reg = <0x30>;
+};

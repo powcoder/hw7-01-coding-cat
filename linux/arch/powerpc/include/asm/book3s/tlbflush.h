@@ -1,0 +1,15 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+/* SPDX-License-Identifier: GPL-2.0 */
+#ifndef _ASM_POWERPC_BOOK3S_TLBFLUSH_H
+#define _ASM_POWERPC_BOOK3S_TLBFLUSH_H
+
+#ifdef CONFIG_PPC64
+#include <asm/book3s/64/tlbflush.h>
+#else
+#include <asm/book3s/32/tlbflush.h>
+#endif
+
+#endif /* _ASM_POWERPC_BOOK3S_TLBFLUSH_H */
